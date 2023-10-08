@@ -1,0 +1,649 @@
+[
+    {
+        "SpanContext": {
+            "TraceID": "b812b3cd5f9f063fb68ae4678328a361",
+            "SpanID": "f37e46f110853c6e",
+            "TraceFlags": 1,
+            "TraceState": null
+        },
+        "ParentSpanID": "0000000000000000",
+        "SpanKind": 1,
+        "Name": "operation",
+        "StartTime": "2023-10-08T17:47:02.474519+08:00",
+        "EndTime": "2023-10-08T17:47:02.474575075+08:00",
+        "Attributes": [
+            {
+                "Key": "ex.com/another",
+                "Value": {
+                    "Type": "STRING",
+                    "Value": "yes"
+                }
+            }
+        ],
+        "MessageEvents": [
+            {
+                "Name": "Now: 2023.10.08 17:47:02",
+                "Attributes": [
+                    {
+                        "Key": "bogons",
+                        "Value": {
+                            "Type": "INT64",
+                            "Value": 100
+                        }
+                    }
+                ],
+                "Time": "2023-10-08T17:47:02.474573+08:00"
+            }
+        ],
+        "Links": null,
+        "StatusCode": "Unset",
+        "StatusMessage": "",
+        "HasRemoteParent": false,
+        "DroppedAttributeCount": 0,
+        "DroppedMessageEventCount": 0,
+        "DroppedLinkCount": 0,
+        "ChildSpanCount": 0,
+        "Resource": null,
+        "InstrumentationLibrary": {
+            "Name": "ex.com/webserver",
+            "Version": ""
+        }
+    },
+    {
+        "SpanContext": {
+            "TraceID": "b812b3cd5f9f063fb68ae4678328a361",
+            "SpanID": "263dea215a9a4546",
+            "TraceFlags": 1,
+            "TraceState": null
+        },
+        "ParentSpanID": "6e1eb945d4860d69",
+        "SpanKind": 1,
+        "Name": "operation",
+        "StartTime": "2023-10-08T17:47:04.473816+08:00",
+        "EndTime": "2023-10-08T17:47:04.473826965+08:00",
+        "Attributes": [
+            {
+                "Key": "ex.com/another",
+                "Value": {
+                    "Type": "STRING",
+                    "Value": "yes"
+                }
+            }
+        ],
+        "MessageEvents": [
+            {
+                "Name": "Now: 2023.10.08 17:47:04",
+                "Attributes": [
+                    {
+                        "Key": "bogons",
+                        "Value": {
+                            "Type": "INT64",
+                            "Value": 100
+                        }
+                    }
+                ],
+                "Time": "2023-10-08T17:47:04.473825+08:00"
+            }
+        ],
+        "Links": null,
+        "StatusCode": "Unset",
+        "StatusMessage": "",
+        "HasRemoteParent": false,
+        "DroppedAttributeCount": 0,
+        "DroppedMessageEventCount": 0,
+        "DroppedLinkCount": 0,
+        "ChildSpanCount": 0,
+        "Resource": null,
+        "InstrumentationLibrary": {
+            "Name": "ex.com/webserver",
+            "Version": ""
+        }
+    }
+]
+[
+    {
+        "SpanContext": {
+            "TraceID": "b812b3cd5f9f063fb68ae4678328a361",
+            "SpanID": "5b6fdf3088a31eb3",
+            "TraceFlags": 1,
+            "TraceState": null
+        },
+        "ParentSpanID": "24cabb01be9cce00",
+        "SpanKind": 1,
+        "Name": "operation",
+        "StartTime": "2023-10-08T17:47:06.473349+08:00",
+        "EndTime": "2023-10-08T17:47:06.47336024+08:00",
+        "Attributes": [
+            {
+                "Key": "ex.com/another",
+                "Value": {
+                    "Type": "STRING",
+                    "Value": "yes"
+                }
+            }
+        ],
+        "MessageEvents": [
+            {
+                "Name": "Now: 2023.10.08 17:47:06",
+                "Attributes": [
+                    {
+                        "Key": "bogons",
+                        "Value": {
+                            "Type": "INT64",
+                            "Value": 100
+                        }
+                    }
+                ],
+                "Time": "2023-10-08T17:47:06.473358+08:00"
+            }
+        ],
+        "Links": null,
+        "StatusCode": "Unset",
+        "StatusMessage": "",
+        "HasRemoteParent": false,
+        "DroppedAttributeCount": 0,
+        "DroppedMessageEventCount": 0,
+        "DroppedLinkCount": 0,
+        "ChildSpanCount": 0,
+        "Resource": null,
+        "InstrumentationLibrary": {
+            "Name": "ex.com/webserver",
+            "Version": ""
+        }
+    },
+    {
+        "SpanContext": {
+            "TraceID": "b812b3cd5f9f063fb68ae4678328a361",
+            "SpanID": "3530a5b887aec17e",
+            "TraceFlags": 1,
+            "TraceState": null
+        },
+        "ParentSpanID": "9db9b1b447c35338",
+        "SpanKind": 1,
+        "Name": "operation",
+        "StartTime": "2023-10-08T17:47:08.474047+08:00",
+        "EndTime": "2023-10-08T17:47:08.474067369+08:00",
+        "Attributes": [
+            {
+                "Key": "ex.com/another",
+                "Value": {
+                    "Type": "STRING",
+                    "Value": "yes"
+                }
+            }
+        ],
+        "MessageEvents": [
+            {
+                "Name": "Now: 2023.10.08 17:47:08",
+                "Attributes": [
+                    {
+                        "Key": "bogons",
+                        "Value": {
+                            "Type": "INT64",
+                            "Value": 100
+                        }
+                    }
+                ],
+                "Time": "2023-10-08T17:47:08.474063+08:00"
+            }
+        ],
+        "Links": null,
+        "StatusCode": "Unset",
+        "StatusMessage": "",
+        "HasRemoteParent": false,
+        "DroppedAttributeCount": 0,
+        "DroppedMessageEventCount": 0,
+        "DroppedLinkCount": 0,
+        "ChildSpanCount": 0,
+        "Resource": null,
+        "InstrumentationLibrary": {
+            "Name": "ex.com/webserver",
+            "Version": ""
+        }
+    },
+    {
+        "SpanContext": {
+            "TraceID": "b812b3cd5f9f063fb68ae4678328a361",
+            "SpanID": "ee417070b1dc9a20",
+            "TraceFlags": 1,
+            "TraceState": null
+        },
+        "ParentSpanID": "1ac505c0681be509",
+        "SpanKind": 1,
+        "Name": "operation",
+        "StartTime": "2023-10-08T17:47:10.473715+08:00",
+        "EndTime": "2023-10-08T17:47:10.473730289+08:00",
+        "Attributes": [
+            {
+                "Key": "ex.com/another",
+                "Value": {
+                    "Type": "STRING",
+                    "Value": "yes"
+                }
+            }
+        ],
+        "MessageEvents": [
+            {
+                "Name": "Now: 2023.10.08 17:47:10",
+                "Attributes": [
+                    {
+                        "Key": "bogons",
+                        "Value": {
+                            "Type": "INT64",
+                            "Value": 100
+                        }
+                    }
+                ],
+                "Time": "2023-10-08T17:47:10.473728+08:00"
+            }
+        ],
+        "Links": null,
+        "StatusCode": "Unset",
+        "StatusMessage": "",
+        "HasRemoteParent": false,
+        "DroppedAttributeCount": 0,
+        "DroppedMessageEventCount": 0,
+        "DroppedLinkCount": 0,
+        "ChildSpanCount": 0,
+        "Resource": null,
+        "InstrumentationLibrary": {
+            "Name": "ex.com/webserver",
+            "Version": ""
+        }
+    }
+]
+[
+    {
+        "SpanContext": {
+            "TraceID": "b812b3cd5f9f063fb68ae4678328a361",
+            "SpanID": "7d0d4f05d682a69f",
+            "TraceFlags": 1,
+            "TraceState": null
+        },
+        "ParentSpanID": "fb6a43de257aea6c",
+        "SpanKind": 1,
+        "Name": "operation",
+        "StartTime": "2023-10-08T17:47:12.472446+08:00",
+        "EndTime": "2023-10-08T17:47:12.472457423+08:00",
+        "Attributes": [
+            {
+                "Key": "ex.com/another",
+                "Value": {
+                    "Type": "STRING",
+                    "Value": "yes"
+                }
+            }
+        ],
+        "MessageEvents": [
+            {
+                "Name": "Now: 2023.10.08 17:47:12",
+                "Attributes": [
+                    {
+                        "Key": "bogons",
+                        "Value": {
+                            "Type": "INT64",
+                            "Value": 100
+                        }
+                    }
+                ],
+                "Time": "2023-10-08T17:47:12.472455+08:00"
+            }
+        ],
+        "Links": null,
+        "StatusCode": "Unset",
+        "StatusMessage": "",
+        "HasRemoteParent": false,
+        "DroppedAttributeCount": 0,
+        "DroppedMessageEventCount": 0,
+        "DroppedLinkCount": 0,
+        "ChildSpanCount": 0,
+        "Resource": null,
+        "InstrumentationLibrary": {
+            "Name": "ex.com/webserver",
+            "Version": ""
+        }
+    },
+    {
+        "SpanContext": {
+            "TraceID": "b812b3cd5f9f063fb68ae4678328a361",
+            "SpanID": "287ccdfacbfddb16",
+            "TraceFlags": 1,
+            "TraceState": null
+        },
+        "ParentSpanID": "6649b069fc647fd2",
+        "SpanKind": 1,
+        "Name": "operation",
+        "StartTime": "2023-10-08T17:47:14.472882+08:00",
+        "EndTime": "2023-10-08T17:47:14.472896691+08:00",
+        "Attributes": [
+            {
+                "Key": "ex.com/another",
+                "Value": {
+                    "Type": "STRING",
+                    "Value": "yes"
+                }
+            }
+        ],
+        "MessageEvents": [
+            {
+                "Name": "Now: 2023.10.08 17:47:14",
+                "Attributes": [
+                    {
+                        "Key": "bogons",
+                        "Value": {
+                            "Type": "INT64",
+                            "Value": 100
+                        }
+                    }
+                ],
+                "Time": "2023-10-08T17:47:14.472895+08:00"
+            }
+        ],
+        "Links": null,
+        "StatusCode": "Unset",
+        "StatusMessage": "",
+        "HasRemoteParent": false,
+        "DroppedAttributeCount": 0,
+        "DroppedMessageEventCount": 0,
+        "DroppedLinkCount": 0,
+        "ChildSpanCount": 0,
+        "Resource": null,
+        "InstrumentationLibrary": {
+            "Name": "ex.com/webserver",
+            "Version": ""
+        }
+    },
+    {
+        "SpanContext": {
+            "TraceID": "b812b3cd5f9f063fb68ae4678328a361",
+            "SpanID": "b8ad043c784fec01",
+            "TraceFlags": 1,
+            "TraceState": null
+        },
+        "ParentSpanID": "dab63fde19344ec1",
+        "SpanKind": 1,
+        "Name": "operation",
+        "StartTime": "2023-10-08T17:47:16.472063+08:00",
+        "EndTime": "2023-10-08T17:47:16.472077023+08:00",
+        "Attributes": [
+            {
+                "Key": "ex.com/another",
+                "Value": {
+                    "Type": "STRING",
+                    "Value": "yes"
+                }
+            }
+        ],
+        "MessageEvents": [
+            {
+                "Name": "Now: 2023.10.08 17:47:16",
+                "Attributes": [
+                    {
+                        "Key": "bogons",
+                        "Value": {
+                            "Type": "INT64",
+                            "Value": 100
+                        }
+                    }
+                ],
+                "Time": "2023-10-08T17:47:16.472074+08:00"
+            }
+        ],
+        "Links": null,
+        "StatusCode": "Unset",
+        "StatusMessage": "",
+        "HasRemoteParent": false,
+        "DroppedAttributeCount": 0,
+        "DroppedMessageEventCount": 0,
+        "DroppedLinkCount": 0,
+        "ChildSpanCount": 0,
+        "Resource": null,
+        "InstrumentationLibrary": {
+            "Name": "ex.com/webserver",
+            "Version": ""
+        }
+    }
+]
+[
+    {
+        "SpanContext": {
+            "TraceID": "b812b3cd5f9f063fb68ae4678328a361",
+            "SpanID": "2bca553e070e6785",
+            "TraceFlags": 1,
+            "TraceState": null
+        },
+        "ParentSpanID": "01608945575e94a4",
+        "SpanKind": 1,
+        "Name": "operation",
+        "StartTime": "2023-10-08T17:47:18.47259+08:00",
+        "EndTime": "2023-10-08T17:47:18.472629867+08:00",
+        "Attributes": [
+            {
+                "Key": "ex.com/another",
+                "Value": {
+                    "Type": "STRING",
+                    "Value": "yes"
+                }
+            }
+        ],
+        "MessageEvents": [
+            {
+                "Name": "Now: 2023.10.08 17:47:18",
+                "Attributes": [
+                    {
+                        "Key": "bogons",
+                        "Value": {
+                            "Type": "INT64",
+                            "Value": 100
+                        }
+                    }
+                ],
+                "Time": "2023-10-08T17:47:18.472622+08:00"
+            }
+        ],
+        "Links": null,
+        "StatusCode": "Unset",
+        "StatusMessage": "",
+        "HasRemoteParent": false,
+        "DroppedAttributeCount": 0,
+        "DroppedMessageEventCount": 0,
+        "DroppedLinkCount": 0,
+        "ChildSpanCount": 0,
+        "Resource": null,
+        "InstrumentationLibrary": {
+            "Name": "ex.com/webserver",
+            "Version": ""
+        }
+    },
+    {
+        "SpanContext": {
+            "TraceID": "b812b3cd5f9f063fb68ae4678328a361",
+            "SpanID": "09aa6fe216e245c6",
+            "TraceFlags": 1,
+            "TraceState": null
+        },
+        "ParentSpanID": "ef3f4528c8f0b54e",
+        "SpanKind": 1,
+        "Name": "operation",
+        "StartTime": "2023-10-08T17:47:20.472323+08:00",
+        "EndTime": "2023-10-08T17:47:20.472368557+08:00",
+        "Attributes": [
+            {
+                "Key": "ex.com/another",
+                "Value": {
+                    "Type": "STRING",
+                    "Value": "yes"
+                }
+            }
+        ],
+        "MessageEvents": [
+            {
+                "Name": "Now: 2023.10.08 17:47:20",
+                "Attributes": [
+                    {
+                        "Key": "bogons",
+                        "Value": {
+                            "Type": "INT64",
+                            "Value": 100
+                        }
+                    }
+                ],
+                "Time": "2023-10-08T17:47:20.472361+08:00"
+            }
+        ],
+        "Links": null,
+        "StatusCode": "Unset",
+        "StatusMessage": "",
+        "HasRemoteParent": false,
+        "DroppedAttributeCount": 0,
+        "DroppedMessageEventCount": 0,
+        "DroppedLinkCount": 0,
+        "ChildSpanCount": 0,
+        "Resource": null,
+        "InstrumentationLibrary": {
+            "Name": "ex.com/webserver",
+            "Version": ""
+        }
+    }
+]
+
+
+
+[
+    {
+        "Name": "request{instrumentation.name=ex.com/webserver,A=1,B=2,C=3,ex.com/lemons=10}",
+        "Last": 1696758669,
+        "Timestamp": "2023-10-08T17:51:09.277782+08:00"
+    },
+    {
+        "Name": "system.cpu.time{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=user}",
+        "Sum": 307904.17
+    },
+    {
+        "Name": "system.cpu.time{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=idle}",
+        "Sum": 5111605.43
+    },
+    {
+        "Name": "system.memory.usage{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=used}",
+        "Sum": 10711224320
+    },
+    {
+        "Name": "system.memory.usage{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=available}",
+        "Sum": 6468644864
+    },
+    {
+        "Name": "system.memory.utilization{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=used}",
+        "Sum": 0.6234753131866455
+    },
+    {
+        "Name": "system.memory.utilization{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=available}",
+        "Sum": 0.3765246868133545
+    },
+    {
+        "Name": "system.network.io{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,direction=receive}",
+        "Sum": 7298447114
+    },
+    {
+        "Name": "latency{instrumentation.name=ex.com/webserver,A=1,B=2,C=3,ex.com/lemons=10}",
+        "Min": 1696758660,
+        "Max": 1696758669,
+        "Sum": 16967586645,
+        "Count": 10
+    },
+    {
+        "Name": "process.cpu.time{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=system}",
+        "Sum": 0.01
+    },
+    {
+        "Name": "system.cpu.time{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=other}",
+        "Sum": 0
+    },
+    {
+        "Name": "system.cpu.time{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=system}",
+        "Sum": 230851.25
+    },
+    {
+        "Name": "system.network.io{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,direction=transmit}",
+        "Sum": 1351644555
+    },
+    {
+        "Name": "process.cpu.time{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=user}",
+        "Sum": 0.01
+    },
+    {
+        "Name": "throughput{instrumentation.name=ex.com/webserver,A=1,B=2,C=3,ex.com/lemons=10}",
+        "Min": 1696758660,
+        "Max": 1696758669,
+        "Sum": 16967586645,
+        "Count": 10
+    }
+]
+[
+    {
+        "Name": "process.cpu.time{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=user}",
+        "Sum": 0.01
+    },
+    {
+        "Name": "throughput{instrumentation.name=ex.com/webserver,A=1,B=2,C=3,ex.com/lemons=10}",
+        "Min": 1696758670,
+        "Max": 1696758679,
+        "Sum": 16967586745,
+        "Count": 10
+    },
+    {
+        "Name": "system.memory.utilization{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=available}",
+        "Sum": 0.3750874996185303
+    },
+    {
+        "Name": "system.network.io{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,direction=receive}",
+        "Sum": 7298648499
+    },
+    {
+        "Name": "request{instrumentation.name=ex.com/webserver,A=1,B=2,C=3,ex.com/lemons=10}",
+        "Last": 1696758679,
+        "Timestamp": "2023-10-08T17:51:19.2768+08:00"
+    },
+    {
+        "Name": "system.cpu.time{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=user}",
+        "Sum": 307911.87
+    },
+    {
+        "Name": "system.cpu.time{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=idle}",
+        "Sum": 5111651.06
+    },
+    {
+        "Name": "system.memory.usage{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=used}",
+        "Sum": 10735915008
+    },
+    {
+        "Name": "system.memory.usage{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=available}",
+        "Sum": 6443954176
+    },
+    {
+        "Name": "system.memory.utilization{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=used}",
+        "Sum": 0.6249125003814697
+    },
+    {
+        "Name": "latency{instrumentation.name=ex.com/webserver,A=1,B=2,C=3,ex.com/lemons=10}",
+        "Min": 1696758670,
+        "Max": 1696758679,
+        "Sum": 16967586745,
+        "Count": 10
+    },
+    {
+        "Name": "process.cpu.time{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=system}",
+        "Sum": 0.01
+    },
+    {
+        "Name": "system.cpu.time{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=other}",
+        "Sum": 0
+    },
+    {
+        "Name": "system.cpu.time{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,state=system}",
+        "Sum": 230857.89
+    },
+    {
+        "Name": "system.network.io{instrumentation.name=go.opentelemetry.io/contrib/instrumentation/host,instrumentation.version=semver:0.17.0,direction=transmit}",
+        "Sum": 1351674281
+    }
+]
